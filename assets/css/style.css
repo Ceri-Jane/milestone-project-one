@@ -1,3 +1,21 @@
+/* Google fonts import */
+
+/* CSS Variables */
+:root {
+    --primary-color: #680b32; /*dark-pink*/
+    --secondary-color: #bb2e52; /*light-pink*/
+    --highlight-color: #400a5a; /*dark-purple*/
+    --highlight-color-light: #75189d; /*light-purple*/
+}
+
+
+
+/* Global styles */
+
+body {
+    padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
+}
+
 h1 {
     color: blue;
 }
@@ -5,3 +23,8 @@ h1 {
 p {
     color: red;
 }
+
+
+
+
+
