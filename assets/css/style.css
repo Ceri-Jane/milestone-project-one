@@ -65,6 +65,11 @@ p {
     text-transform: uppercase;
 }
 
+/*Services*/
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
 
 /*Grid visualisation CSS for testing*/
 
