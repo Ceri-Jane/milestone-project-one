@@ -20,16 +20,19 @@ body {
 }
 
 h1 {
-    color: blue;
     font-family: var(--primary-font);
-}
-
-p {
-    color: red;
-    font-family: var(--secondary-font);
+    color: var(--primary-color);
 }
 
 
+/*Grid visualisation CSS for testing*/
 
+.container,
+.row {
+    border: 2px solid black;
+}
 
-
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
+}
