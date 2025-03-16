@@ -46,10 +46,10 @@
                 <a class="nav-link" href="#">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="artists.html">Artists</a>
+                <a class="nav-link" href="artists.html">Artists</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
+                <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Booking</a>
@@ -66,8 +66,8 @@
     <header class="container section">
         
           <div class="col-12 text-center">
-            <h1>Artists</h1>
-            <h2>Meet the crew!</h2>
+            <h1>Gallery</h1>
+            <h2>View work from our artists</h2>
           </div>
           
       </header> 
@@ -75,12 +75,48 @@
 
     <!--Main element to hold all key sections of the page.-->
     <main>
-      <!--Services section-->
-      <section class="container">
+      <!--Gallery carousel-->
+      <section id="gallery" class="container section">
         <div class="row justify-content-center">
-          <div class="col-12 col-md-6 col-xl-3">Artist 1</div>
-          <div class="col-12 col-md-6 col-xl-3">Artist 2</div>
-          <div class="col-12 col-md-6 col-xl-3">Artist 3</div>
+            <div id="carouselExampleAutoplaying" class="carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/gallery-01.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/gallery-02.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/gallery-03.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/gallery-04.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/gallery-05.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/gallery-06.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/gallery-07.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/gallery-08.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/gallery-09.jpg" class="img-fluid" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>
       </section>
  
