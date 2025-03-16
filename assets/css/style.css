@@ -6,8 +6,8 @@
     --primary-font: "Rye", cursive;
     --secondary-font: "Cormorant Garamond", serif;
     --primary-color: #680b32; /*dark-pink*/
-    --secondary-color: #bb2e52; /*light-pink*/
-    --highlight-color: #400a5a; /*dark-purple*/
+    --highlight-color: #bb2e52; /*light-pink*/
+    --secondary-color: #400a5a; /*dark-purple*/
     --highlight-color-light: #75189d; /*light-purple*/
 }
 
@@ -16,25 +16,54 @@
 /* Global styles */
 
 body {
-    padding-top: 71px; /* pushes the top of the header down under fixed navbar */
+    padding-top: 38px; /* pushes the top of the header down under fixed navbar */
 }
 
 
 h1 {
     font-family: var(--primary-font);
+    color: var(--highlight-color);
+}
+
+h2 {
+    font-family: var(--secondary-font);
     color: var(--secondary-color);
 }
+
+.sub-heading-color {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+p {
+    font-family: var(--secondary-font);
+    font-weight: bold;
+}
+
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
 
 /*Navbar*/
 
 #navbar {
-    background-color: var(--primary-color);
+    background-color: var(--highlight-color);
 }
 
 #navbar .logo {
     width: 40px;
 }
 
+/*Header*/
+
+#header {
+    text-transform: uppercase;
+}
 
 
 /*Grid visualisation CSS for testing*/
