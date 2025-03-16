@@ -16,13 +16,25 @@
 /* Global styles */
 
 body {
-    padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
+    padding-top: 71px; /* pushes the top of the header down under fixed navbar */
 }
+
 
 h1 {
     font-family: var(--primary-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
+
+/*Navbar*/
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 40px;
+}
+
 
 
 /*Grid visualisation CSS for testing*/
