@@ -17,6 +17,7 @@
 
 body {
     padding-top: 38px; /* pushes the top of the header down under fixed navbar */
+    background-color: #efc8aa;
 }
 
 
@@ -71,6 +72,14 @@ p {
     margin-bottom: 1.5rem;
 }
 
+/*Opening times table*/
+
+#opening-times .table-light * {
+    background-color: transparent;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    font-weight: bold;
+}
 
 
 /*Grid visualisation CSS for testing*/
@@ -88,5 +97,5 @@ p {
 
 /*Media queries*/
 
-/*Gallery carousel*/
+
 
