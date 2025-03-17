@@ -117,5 +117,38 @@ footer {
 
 /*Media queries*/
 
+/* Small devices (mobiles, 320 px and up) */
+@media screen and (min-width: 320px) {
+    #map .map {
+        max-height: 250px;
+        max-width: 250px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    #map .map {
+        min-width: 550px;
+        min-height: 300px;
+    }
+}
+
+/* large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #map .map {
+        min-width: 700px;
+        min-height: 400px;
+    }
+}
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    #map .map {
+        min-width: 500px;
+        min-height: 400px;
+        padding-top: 100px;
+    }
+}
+
 
 
