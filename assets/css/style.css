@@ -72,13 +72,6 @@ p {
 }
 
 
-/*Gallery*/
-
-#gallery img {
-    height: 100%;
-}
-
-
 
 /*Grid visualisation CSS for testing*/
 
@@ -97,30 +90,3 @@ p {
 
 /*Gallery carousel*/
 
-/*Medium devices (tablets, 768px and up)*/
-@media screen and (min-width: 768px) {
-    #gallery .carousel-item {
-        max-height: 480px;
-    }
-}
-
-/*Large devices (small laptops, 992px and up*/
-@media screen and (min-width: 992px) {
-    #gallery .carousel-item {
-        max-height: auto;
-    }
-}
-
-/*Large devices (large desktops, 1200px and up*/
-@media screen and (min-width: 1200px) {
-    #gallery .carousel-item {
-        max-height: auto;
-    }
-}
-
-/*Large devices (larger desktops, 1400px and up*/
-@media screen and (min-width: 1400px) {
-    #gallery .carousel-item {
-        max-height: auto;
-    }
-}
