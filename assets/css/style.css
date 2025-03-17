@@ -26,7 +26,8 @@ h1 {
     color: var(--highlight-color);
 }
 
-h2 {
+h2,
+h3 {
     font-family: var(--secondary-font);
     color: var(--secondary-color);
 }
@@ -72,6 +73,18 @@ p {
     margin-bottom: 1.5rem;
 }
 
+#artist-link {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    list-style-type: none;
+  }
+  
+  #artist-link i {
+    font-size: 150%;
+    color: var(--secondary-color);
+  }
+
 /*Opening times table*/
 
 #opening-times .table-light * {
@@ -81,6 +94,7 @@ p {
     font-weight: bold;
 }
 
+
 /* Footer */
 
 footer {
@@ -89,7 +103,7 @@ footer {
 
 #social-networks {
     text-align: center;
-    padding-top: 5px;
+    padding-top: 12px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -103,7 +117,7 @@ footer {
 
 
 /*Grid visualisation CSS for testing*/
-
+/*
 .container,
 .row {
     border: 2px solid black;
@@ -113,7 +127,7 @@ footer {
     border: 2px solid white;
     background-color: lightgray;
 }
-
+*/
 
 /*Media queries*/
 
@@ -146,9 +160,16 @@ footer {
     #map .map {
         min-width: 500px;
         min-height: 400px;
-        padding-top: 100px;
+        padding-top: 150px;
     }
 }
 
-
+/* xxl devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+    #map .map {
+        min-width: 500px;
+        min-height: 400px;
+        padding-top: 150px;
+    }
+}
 
