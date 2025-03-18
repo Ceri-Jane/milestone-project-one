@@ -85,6 +85,22 @@ p {
     color: var(--secondary-color);
   }
 
+/*custom button*/
+
+.custom-button {
+    border: 3px solid var(--highlight-color);
+    padding: 7px 25px;
+    font-family: var(--secondary-font);
+    font-size: larger;
+    font-weight: bolder;
+    color: var(--highlight-color)
+}
+
+.custom-button:hover {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /*Opening times table*/
 
 #opening-times .table-light * {
