@@ -72,6 +72,12 @@ p {
     margin-bottom: 1.5rem;
 }
 
+/*Testimonials*/
+
+#testimonials .card {
+    margin-bottom: 1.5rem;
+}
+
 #artist-link {
     display: flex;
     justify-content: space-evenly;
@@ -183,6 +189,10 @@ footer {
         min-width: 500px;
         min-height: 400px;
         padding-top: 150px;
+    }
+/*Make all testimonial cards the same height for consistency*/
+    #testimonials .card-body {
+        min-height: 150px;
     }
 }
 
