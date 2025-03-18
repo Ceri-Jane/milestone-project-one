@@ -46,13 +46,13 @@
                 <a class="nav-link" href="index.html#services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="artists.html">Artists</a>
+                <a class="nav-link active" aria-current="page" href="artists.html">Artists</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gallery.html">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="booking.html">Booking</a>
+                <a class="nav-link" href="booking.html">Booking</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
@@ -66,8 +66,9 @@
     <header class="container section">
         
           <div class="col-12 text-center">
-            <h1>Booking form</h1>
-            <h2>Message the studio to make a booking</h2>
+            <h1 id="header" class="display-4">Thank you!</h1>
+            <h2>Your form has been submitted successfully!</h2>  
+
           </div>
           
       </header> 
@@ -76,48 +77,11 @@
     <!--Main element to hold all key sections of the page.-->
     <main>
 
-         <!-- Booking inquiry form section -->
-         <section id="booking-form" class="container section">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-8">
-                    <p class="my-4">Thank you for choosing to book a session with Tattoo Studio! Please fill out the form below with your details and preferred session type. A member of the crew will be in touch with you as soon as possible to confirm your booking and answer any questions you may have.</p>
-                    <form action="success.html" method="GET">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input class="form-control" id="name" name="name" type="text" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input class="form-control" id="email" name="email" type="email" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="phone" class="form-label">Phone number</label>
-                                <input class="form-control" id="phone" name="phone" type="number" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="session-type" class="form-label">Session type</label>
-                                <select id="session-type" class="form-select" name="session-type" required>
-                                    <option value="" selected>Select</option>
-                                    <option value="hourly-session">Hourly session</option>
-                                    <option value="half-day-session">Half-day session</option>
-                                    <option value="full-day-session">Full-day session</option>
-                                    <option value="piece-specific">Piece specific</option>
-                                </select>
-                            </div>
-                            <div class="col-12 mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
-                            </div>
-                        </div>
+        <div class="col-12 text-center">
+            <a href="index.html" class="btn btn-primary">Return to the home page</a>
+          </div>
 
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                        <button type="reset" class="btn btn-primary">Reset</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-
+ 
     </main>
  
     <!--Footer-->
