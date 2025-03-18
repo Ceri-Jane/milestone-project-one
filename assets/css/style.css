@@ -96,6 +96,14 @@ p {
     color: var(--secondary-color);
   }
 
+  .circle-image {
+    height: 90vw;
+    width: 90vw;
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+  }
+
 
 /*custom button*/
 
