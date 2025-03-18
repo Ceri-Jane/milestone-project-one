@@ -44,7 +44,7 @@ p {
 
 
 .section {
-    padding-top: 4rem;
+    padding-top: 4rem; /*prevent navbar overlap when navigating to links within their own page*/
 }
 
 
