@@ -84,6 +84,13 @@ p {
     color: var(--secondary-color);
   }
 
+
+  /*Artist link on gallery page*/
+  #artist-link {
+    color: var(--secondary-color);
+  }
+
+
 /*custom button*/
 
 .custom-button {
