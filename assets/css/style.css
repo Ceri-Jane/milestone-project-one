@@ -1,225 +1,189 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Rye&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Rye&display=swap");
 
 /* CSS Variables */
 :root {
-    --primary-font: "Rye", cursive;
-    --secondary-font: "Cormorant Garamond", serif;
-    --primary-color: #680b32; /*dark-pink*/
-    --highlight-color: #bb2e52; /*light-pink*/
-    --secondary-color: #400a5a; /*dark-purple*/
-    --highlight-color-light: #75189d; /*light-purple*/
+  --primary-font: "Rye", cursive;
+  --secondary-font: "Cormorant Garamond", serif;
+  --primary-color: #680b32; /*dark-pink*/
+  --highlight-color: #bb2e52; /*light-pink*/
+  --secondary-color: #400a5a; /*dark-purple*/
+  --highlight-color-light: #75189d; /*light-purple*/
 }
-
-
 
 /* Global styles */
-
 body {
-    padding-top: 30px; /* pushes the top of the header down under fixed navbar */
-    background-color: #efc8aa;
+  padding-top: 30px; /* pushes the top of the header down under fixed navbar */
+  background-color: #efc8aa;
 }
 
-
 h1 {
-    font-family: var(--primary-font);
-    color: var(--highlight-color);
+  font-family: var(--primary-font);
+  color: var(--highlight-color);
 }
 
 h2,
 h3 {
-    font-family: var(--secondary-font);
-    color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
 }
 
 .sub-heading-color {
-    color: var(--primary-color);
-    font-weight: bold;
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
 p {
-    font-family: var(--secondary-font);
-    font-weight: bold;
+  font-family: var(--secondary-font);
+  font-weight: bold;
 }
-
 
 .section {
-    padding-top: 4rem; /*prevent navbar overlap when navigating to links within their own page*/
+  padding-top: 4rem; /*prevent navbar overlap when navigating to links within their own page*/
 }
 
-
-
-
 /*Navbar*/
-
 #navbar {
-    background-color: var(--highlight-color);
-    font-family: var(--secondary-font);
-    font-size: larger;
-    font-weight: bolder;
+  background-color: var(--highlight-color);
+  font-family: var(--secondary-font);
+  font-size: larger;
+  font-weight: bolder;
 }
 
 #navbar .logo {
-    width: 40px;
+  width: 40px;
 }
 
 /*Header*/
-
 #header {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 /*Services*/
-
 #services .card {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /*Testimonials*/
-
 #testimonials .card {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 #artist-link {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
-    list-style-type: none;
-  }
-  
-  #artist-link i, 
-  #testimonials i {
-    font-size: 150%;
-    color: var(--secondary-color);
-  }
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  list-style-type: none;
+}
 
+#artist-link i,
+#testimonials i {
+  font-size: 150%;
+  color: var(--secondary-color);
+}
 
-  /*Artist link on gallery page*/
-  #artist-link {
-    color: var(--secondary-color);
-  }
+/*Artist link on gallery page*/
+#artist-link {
+  color: var(--secondary-color);
+}
 
-  .circle-image {
-    height: 90vw;
-    width: 90vw;
-    border-radius: 50%;
-    max-width: 100px;
-    max-height: 100px;
-  }
-
+.circle-image {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 50%;
+  max-width: 100px;
+  max-height: 100px;
+}
 
 /*custom button*/
-
 .custom-button {
-    border: 3px solid var(--highlight-color);
-    padding: 7px 25px;
-    font-family: var(--secondary-font);
-    font-size: larger;
-    font-weight: bolder;
-    color: var(--highlight-color)
+  border: 3px solid var(--highlight-color);
+  padding: 7px 25px;
+  font-family: var(--secondary-font);
+  font-size: larger;
+  font-weight: bolder;
+  color: var(--highlight-color);
 }
 
 .custom-button:hover {
-    background-color: var(--highlight-color);
-    color: white;
+  background-color: var(--highlight-color);
+  color: white;
 }
 
 /*Opening times table*/
-
 #opening-times .table-light * {
-    background-color: transparent;
-    font-family: var(--secondary-font);
-    color: var(--secondary-color);
-    font-weight: bold;
+  background-color: transparent;
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  font-weight: bold;
 }
 
 /*Thank you message on success page*/
-
 #success {
-    padding-top: 12rem;
+  padding-top: 12rem;
 }
 
-
 /* Footer */
-
 footer {
-    background-color: var(--highlight-color);
+  background-color: var(--highlight-color);
 }
 
 #social-networks {
-    text-align: center;
-    padding-top: 12px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-  }
-  
-  #social-networks i {
-    font-size: 150%;
-    color: var(--secondary-color);
-  }
-  
-
-
-/*Grid visualisation CSS for testing*/
-/*
-.container,
-.row {
-    border: 2px solid black;
+  text-align: center;
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
+#social-networks i {
+  font-size: 150%;
+  color: var(--secondary-color);
 }
-*/
 
 /*Media queries*/
-
 /* Small devices (mobiles, 320 px and up) */
 @media screen and (min-width: 320px) {
-    #map .map {
-        max-height: 250px;
-        max-width: 250px;
-    }
+  #map .map {
+    max-height: 250px;
+    max-width: 250px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-    #map .map {
-        min-width: 550px;
-        min-height: 300px;
-    }
+  #map .map {
+    min-width: 550px;
+    min-height: 300px;
+  }
 }
 
 /* large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #map .map {
-        min-width: 700px;
-        min-height: 400px;
-    }
+  #map .map {
+    min-width: 700px;
+    min-height: 400px;
+  }
 }
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-    #map .map {
-        min-width: 500px;
-        min-height: 400px;
-        padding-top: 150px;
-    }
-/*Make all testimonial cards the same height for consistency*/
-    #testimonials .card-body {
-        min-height: 150px;
-    }
+  #map .map {
+    min-width: 500px;
+    min-height: 400px;
+    padding-top: 150px;
+  }
+  /*Make all testimonial cards the same height for consistency*/
+  #testimonials .card-body {
+    min-height: 150px;
+  }
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
-    #map .map {
-        min-width: 500px;
-        min-height: 400px;
-        padding-top: 150px;
-    }
+  #map .map {
+    min-width: 500px;
+    min-height: 400px;
+    padding-top: 150px;
+  }
 }
-
