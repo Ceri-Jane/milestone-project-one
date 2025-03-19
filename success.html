@@ -27,7 +27,7 @@
 
 <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
 <body class="d-flex flex-column min-vh-100">
-
+  <header>
     <!--Navigation-->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
         <div class="container">
@@ -64,24 +64,27 @@
           </div>
         </div>
       </nav>
+    </header>
 
-    <!--Header-->
-    <header class="container section">
-        
-          <div id="success" class="col-12 text-center">
-            <h1 id="header" class="display-4">Thank you!</h1>
-            <h2>Your form has been submitted successfully!</h2>  
-
-          </div>
-          
-      </header> 
+    
 
 
     <!--Main element to hold all key sections of the page.-->
     <main>
 
+      <!--Thank you section-->
+    <section class="container section">
+        
+      <div id="success" class="col-12 text-center">
+        <h1 id="header" class="display-4">Thank you!</h1>
+        <h2>Your form has been submitted successfully!</h2>  
+
+      </div>
+      
+    </section> 
+    <!--Return to home page button-->
         <div class="col-12 text-center">
-            <a href="index.html" class="btn custom-button" aria-label="Tattoo Studio return to home page (takes you back to the top of the home page)">Return to the home page</a>
+            <a href="index.html" class="btn custom-button" aria-label="Tattoo Studio return to home page (takes you back to the top of the home page to the booking page)">Return to the home page</a>
           </div>
 
  
