@@ -134,6 +134,12 @@ p {
     font-weight: bold;
 }
 
+/*Thank you message on success page*/
+
+#success {
+    padding-top: 12rem;
+}
+
 
 /* Footer */
 
