@@ -54,6 +54,9 @@ p {
 
 #navbar {
     background-color: var(--highlight-color);
+    font-family: var(--secondary-font);
+    font-size: larger;
+    font-weight: bolder;
 }
 
 #navbar .logo {
