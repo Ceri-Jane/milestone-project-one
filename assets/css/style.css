@@ -85,7 +85,8 @@ p {
     list-style-type: none;
   }
   
-  #artist-link i {
+  #artist-link i, 
+  #testimonials i {
     font-size: 150%;
     color: var(--secondary-color);
   }
