@@ -5,8 +5,7 @@
 :root {
   --primary-font: "Rye", cursive;
   --secondary-font: "Cormorant Garamond", serif;
-  --primary-color: #680b32; /*dark-pink*/
-  --highlight-color: #bb2e52; /*light-pink*/
+  --primary-color: #bb2e52; /*light-pink*/
   --secondary-color: #400a5a; /*dark-purple*/
   --background-color: #efc8aa; /*cream*/
 }
@@ -19,18 +18,13 @@ body {
 
 h1 {
   font-family: var(--primary-font);
-  color: var(--highlight-color);
+  color: var(--primary-color);
 }
 
 h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--secondary-color);
-}
-
-.sub-heading-color {
-  color: var(--primary-color);
-  font-weight: bold;
 }
 
 p {
@@ -44,7 +38,7 @@ p {
 
 /*Navbar*/
 #navbar {
-  background-color: var(--highlight-color);
+  background-color: var(--primary-color);
   font-family: var(--secondary-font);
   font-size: larger;
   font-weight: bolder;
@@ -97,16 +91,16 @@ p {
 
 /*custom button*/
 .custom-button {
-  border: 3px solid var(--highlight-color);
+  border: 3px solid var(--primary-color);
   padding: 7px 25px;
   font-family: var(--secondary-font);
   font-size: larger;
   font-weight: bolder;
-  color: var(--highlight-color);
+  color: var(--primary-color);
 }
 
 .custom-button:hover {
-  background-color: var(--highlight-color);
+  background-color: var(--primary-color);
   color: white;
 }
 
@@ -125,7 +119,7 @@ p {
 
 /* Footer */
 footer {
-  background-color: var(--highlight-color);
+  background-color: var(--primary-color);
 }
 
 #social-networks {
