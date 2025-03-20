@@ -8,13 +8,13 @@
   --primary-color: #680b32; /*dark-pink*/
   --highlight-color: #bb2e52; /*light-pink*/
   --secondary-color: #400a5a; /*dark-purple*/
-  --highlight-color-light: #75189d; /*light-purple*/
+  --background-color: #efc8aa; /*cream*/
 }
 
 /* Global styles */
 body {
   padding-top: 30px; /* pushes the top of the header down under fixed navbar */
-  background-color: #efc8aa;
+  background-color: var(--background-color);
 }
 
 h1 {
