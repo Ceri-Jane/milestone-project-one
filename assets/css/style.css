@@ -67,8 +67,12 @@ p {
 #artist-link-flynn,
 #artist-link-eddie,
 #artist-link-joe {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   gap: 10px;
   list-style-type: none;
 }
@@ -125,8 +129,12 @@ footer {
 #social-networks {
   text-align: center;
   padding-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   list-style-type: none;
 }
 
