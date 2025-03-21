@@ -64,21 +64,20 @@ p {
   margin-bottom: 1.5rem;
 }
 
-#artist-link {
+#artist-link-flynn,
+#artist-link-eddie,
+#artist-link-joe {
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
   list-style-type: none;
 }
 
-#artist-link i,
+#artist-link-flynn i,
+#artist-link-eddie i,
+#artist-link-joe i,
 #testimonials i {
   font-size: 150%;
-  color: var(--secondary-color);
-}
-
-/*Artist link on gallery page*/
-#artist-link {
   color: var(--secondary-color);
 }
 
