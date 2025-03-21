@@ -8,6 +8,7 @@
   --primary-color: #bb2e52; /*light-pink*/
   --secondary-color: #400a5a; /*dark-purple*/
   --background-color: #efc8aa; /*cream*/
+  --nav-and-footer-color: #DE7891; /*baby-pink*/
 }
 
 /* Global styles */
@@ -38,7 +39,7 @@ p {
 
 /*Navbar*/
 #navbar {
-  background-color: var(--primary-color);
+  background-color: var(--nav-and-footer-color);
   font-family: var(--secondary-font);
   font-size: larger;
   font-weight: bolder;
@@ -119,7 +120,7 @@ p {
 
 /* Footer */
 footer {
-  background-color: var(--primary-color);
+  background-color: var(--nav-and-footer-color);
 }
 
 #social-networks {
