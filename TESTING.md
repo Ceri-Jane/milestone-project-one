@@ -244,6 +244,7 @@ I performed another check to see if the testimonials link in the navigation bar 
 
 I performed a check on the button to lead the user to Trip Advisor and this worked as expected and opened in a new tab.
 
+
 [Back to contents](#contents)
 
 Return to [README.md](README.md)
