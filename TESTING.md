@@ -13,8 +13,9 @@ Return to [README.md](README.md)
 * [Lighthouse](#lighthouse)
 * [Html code](#html-code)
 * [CSS code](#css-code)
-* [Adaptive check](#adaptive-check)
+* [Responsive check](#responsive-check)
 * [Home page check](#home-page-check)
+* [Testimonials edit](#testimonials-edit)
 * [Navigation check](#navigation-check)
 * [Artist links check](#artist-links-check)
 * [Gallery page check](#gallery-page-check)
@@ -195,10 +196,10 @@ No errors to fix.
 Return to [README.md](README.md)
 
 ----------
-## Adaptive check
+## Responsive check
 ----------
 
-I used dev. tools to check the adaptability of the Tattoo Studio website on different screen sizes. All worked ok and as expected.
+I used dev. tools to check the responsiveness and adaptability of the Tattoo Studio website on different screen sizes. All worked ok and as expected.
 
 ![Adaptive check of full site](assets/videos/adaptive-check.gif)
 
@@ -212,7 +213,36 @@ Return to [README.md](README.md)
 
 I used dev. tools to check all links on the home page worked. I checked the book a session button and the social media links in the footer. All worked ok and as expected. The links also work on the footer for every other page. 
 
+_edit: The testimonials section now contains an option to review Tattoo Studio. I have provided a button underneath the existing testimonials section with an external link to Trip Advisor. Please see [Testimonials edit](#testimonials-edit) for a detailed explanation as to why this was added in at the last stage._
+
 ![Home page links check on mobile](assets/videos/test-mobile-home-links.gif)
+
+[Back to contents](#contents)
+
+Return to [README.md](README.md)
+
+----------
+## Testimonials edit
+----------
+
+Upon further inspection, I did not like the fact that when the testimonials link was clicked on the navigation bar on larger screens, the below part of the services section was still visible, along with the book a session button.
+
+![Testimonials section still showing book a session button](assets/videos/testimonials-section.gif)
+
+I added in a sub-heading below and a button to take the user to Trip Advisor (link opens in a new tab), with the option of leaving a review for Tattoo Studio.
+This ensured the testimonials section was just underneath the navigation bar once selected - much like the services section.
+
+![Testimonials section with added review button](assets/videos/testimonials-section-add-review.gif)
+
+I performed another lighthouse check, like the one above and there were still no errors to fix. In fact the performance went up to 99%.
+
+I performed another check on the HTML code on the deployed site and there were still no errors to fix.
+
+I performed another responsive check and all still worked ok and looked good on different screen sizes.
+
+I performed another check to see if the testimonials link in the navigation bar still worked ok on each page. It did.
+
+I performed a check on the button to lead the user to Trip Advisor and this worked as expected and opened in a new tab.
 
 [Back to contents](#contents)
 
