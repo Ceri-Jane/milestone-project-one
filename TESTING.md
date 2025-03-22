@@ -3,7 +3,7 @@
 
 Here you will find all tests performed on the Tattoo Studio website.
 
-to return to [README.md](README.md)
+Return to [README.md](README.md)
 
 ----------
 ## Contents
@@ -19,10 +19,11 @@ to return to [README.md](README.md)
 * [Artist links check](#artist-links-check)
 * [Gallery page check](#gallery-page-check)
 * [Booking page check](#booking-page-check)
-* [Success page check](success-page-check)
+* [Success page check](#success-page-check)
 * [Contact page check](#contact-page-check)
 * [Browser compatibility](#browser-compatibility)
 * [User stories](#user-stories)
+* Back to [README.md](README.md)
 
 ----------
 ### Contrast
@@ -50,7 +51,7 @@ Using the chrome extension: Wave, it came to my attention that the contrast was 
 
 ![New colour suggestion](assets/images/contrast-check-05.png)
 
-1. I checked the wave extension again after I used the new background colour for the navigation bar and footer and no contrast errors came up so I decided to keep the newe colour as it matched the website colour scheme really well and would not cause any issues for sight impared users.
+1. I checked the wave extension again after I used the new background colour for the navigation bar and footer and no contrast errors came up so I decided to keep the new colour as it matched the website colour scheme really well and would not cause any issues for sight impaired users.
 
 ![wave shows no more errors on contrast](assets/images/contrast-check-06.png)
 
@@ -74,7 +75,7 @@ Here are my findings after using the Lighthouse chrome dev. tool on the deployed
 
 1. Home page
 
-No errors to fix. 98% on performance as the image uses .img-fluid class from Bootstrap and has no set width/height.
+No errors to fix. 98% on performance as the image uses .img-fluid class from BootStrap and has no set width/height.
 
 ![Lighthouse check on home page](assets/images/lighthouse-check-home-desktop.png)
 
@@ -104,7 +105,7 @@ No errors to fix. 93% on accessibility because there is a meta tag used to redir
 
 6. Contact page
 
-All errors seem to be pointing towards the iframe element where the interactive map is embeded.
+All errors seem to be pointing towards the iframe element where the interactive map is embedded.
 
 ![Lighthouse check on contact page](assets/images/lighthouse-check-contact-desktop.png)
 
@@ -136,11 +137,11 @@ No errors to fix.
 
 2. Artist page
 
-Erros were shown for multiple use of an ID.
+Errors were shown for multiple use of an ID.
 
 ![HTML code check on artist page](assets/images/html-check-artist-error.png)
 
-The same ID was used on 3 seperate artist cards.
+The same ID was used on 3 separate artist cards.
 I fixed the error by giving each artist card their own ID.
 
 ![HTML code check and fix on artist page](assets/images/html-check-artist-fixed.png)
@@ -153,7 +154,7 @@ No errors to fix.
 
 4. Booking page
 
-No errors to fix. Only 1 warning suggesting that the form feature has no heading. I have added a heading at the top of the page to fit in with the look of the rest of the site and I do not want the form itsself to have it's own heading so I am ignoring this warning.
+No errors to fix. Only 1 warning suggesting that the form feature has no heading. I have added a heading at the top of the page to fit in with the look of the rest of the site and I do not want the form itself to have its own heading, so I am ignoring this warning.
 
 ![HTML code check on booking page](assets/images/html-check-booking.png)
 
@@ -163,7 +164,7 @@ No errors to fix. Only 1 warning suggesting that the form feature has no heading
 
 ![HTML code check on success page](assets/images/html-check-success-error.png)
 
-I fixed the error by adding in the required space between the two attributes.
+I fixed the error by adding the required space between the two attributes.
 
 ![HTML code check on success page](assets/images/html-check-success-fixed.png)
 
@@ -267,7 +268,6 @@ I used dev. tools to check the reset button on the booking page cleared all the 
 
 ![Booking page reset check on mobile](assets/videos/test-mobile-booking-reset.gif)
 
-
 [Back to contents](#contents)
 
 Return to [README.md](README.md)
@@ -283,7 +283,6 @@ I used dev. tools to check the success page was displayed once the form was subm
 I used dev. tools to check the return to home page button on the success page worked. All worked ok and as expected.
 
 ![Success page button check on mobile](assets/videos/test-mobile-success-button.gif)
-
 
 [Back to contents](#contents)
 
@@ -301,11 +300,9 @@ I used dev. tools to check the interactive map on a mobile and desktop screen. I
 
 ![Opening times hover](assets/videos/test-opening-times-hover.gif)
 
-
 [Back to contents](#contents)
 
 Return to [README.md](README.md)
-
 
 ----------
 ### Browser compatibility
@@ -319,7 +316,6 @@ The Tattoo Studio website was tested on the following browsers:
 * Safari
 
 No issues were found across these browsers. The appearance, functionality and responsiveness were consistent throughout.
-
 
 [Back to contents](#contents)
 
@@ -340,9 +336,8 @@ Site layout and navigation are intuitive, allowing easy access to different sect
 
 | Tasks      | Completed | 
 -----  | :----:    |
-Apply responsive design principles using Bootstrap to ensure the website is accessible on various devices.  | YES      |
+Apply responsive design principles using BootStrap to ensure the website is accessible on various devices.  | YES      |
 Arrange the site layout and navigation based on best practices, ensuring all key sections and pages are easily accessible.  | YES      |
-
 
 2. As a potential customer, I want to see high-quality images and engaging descriptions of the studio and artists and their work, so I can decide if it's the right place for me to visit.
 
@@ -357,10 +352,9 @@ The homepage layout prominently features the services available and descriptions
 
 | Tasks      | Completed | 
 -----  | :----:    |
-Integrate high-quality images of the studio, artists and their work into the website (using a carousel for work gallery).  | YES      |
-Embed descriptions for the studio, artists and services available within the site's content.  | YES      |
+Integrate high-quality images of the studio, artists, and their work into the website (using a carousel for work gallery).  | YES      |
+Embed descriptions for the studio, artists, and services available within the site's content.  | YES      |
 Design and implement a homepage layout that prominently features the studio image, description and services.  | YES      |
-
 
 3. As a prospective Customer, I need to find essential information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the studio.
 
@@ -376,7 +370,6 @@ This section is clearly visible and accessible from the navbar.  | YES      |
 -----  | :----:    |
 Design and place a section for location, contact details, and opening hours using information provided by the client.  | YES      |
 Ensure the contact section is clearly visible and accessible from the navbar.  | YES      |
-
 
 4. As a customer, I want to book a session using a simple booking inquiry form, so I can easily contact the studio.
 
@@ -395,7 +388,6 @@ Implement a booking inquiry form on the website.  | YES      |
 Implement HTML validation on the form to fit the requirements above.  | YES      |
 Create a success page to direct users to after submitting the form.  | YES      |
 
-
 5. As a new/existing customer, I want to find clear information about pricing so I can plan my visit within my budget.
 
 <u>Feature:</u> Visible pricing for sessions (should-have)
@@ -407,7 +399,6 @@ Clear and correct pricing information for sessions is displayed and easy to find
 | Tasks      | Completed | 
 -----  | :----:    |
 Display pricing for sessions.  | YES      |
-
 
 6. As a prospective customer, I want to read testimonials and reviews from other customers, so I can gauge the experiences of others and feel more confident about visiting the studio.
 
@@ -423,7 +414,6 @@ Testimonials are clearly visible and presented in a format that is easy to read 
 Create a static section on the website for customer testimonials.  | YES      |
 Populate this section with a selection of pre-written testimonials.  | YES      |
 
-
 7. As a prospective customer, I want to be able to access social media pages for the studio so I can see more artist work and keep up-to-date with the studio events.
 
 <u>Feature:</u> Socials (could-have)
@@ -436,7 +426,6 @@ Social media links are clearly visible and accessible from all parts of the webs
 | Tasks      | Completed | 
 -----  | :----:    |
 Create a section within the footer for social media links.  | YES      |
-
 
 [Back to contents](#contents)
 
