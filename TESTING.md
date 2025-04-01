@@ -155,9 +155,13 @@ No errors to fix.
 
 4. Booking page
 
-No errors to fix. Only 1 warning suggesting that the form feature has no heading. I have added a heading at the top of the page to fit in with the look of the rest of the site and I do not want the form itself to have its own heading, so I am ignoring this warning.
+No errors to fix. Only 1 warning suggesting that the form feature has no heading. 
 
 ![HTML code check on booking page](assets/images/html-check-booking.png)
+
+I have added a heading at the top of the page to fit in with the look of the rest of the site and I do not want the form itself to have its own heading, so I changed the section tag to a div tag to remove the warning.
+
+![HTML code check on booking page after fix](assets/images/html-check-booking-fix.png)
 
 5. Success page
 
