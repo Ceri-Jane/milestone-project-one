@@ -11,7 +11,7 @@ Return to [README.md](README.md)
 
 * [Contrast](#contrast)
 * [Lighthouse](#lighthouse)
-* [Html code](#html-code)
+* [HTML code](#html-code)
 * [CSS code](#css-code)
 * [Responsive check](#responsive-check)
 * [Home page check](#home-page-check)
